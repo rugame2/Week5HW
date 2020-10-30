@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h1>You have reached the Avengers Hotline!</h1>
+    {% for name in list_names %}
+        <h3>{{ name }}</h3>
+    {% endfor %}
+    
+{% endblock content %}
